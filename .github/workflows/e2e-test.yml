@@ -17,12 +17,10 @@ jobs:
           channel: stable
       - name: Install Flutter dependencies
         run: flutter pub get
-      - name : Install HAXM
-        run : brew install intel-haxm
       - name: Run integration tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: ${{ matrix.api-level }}
           arch: x86_64
-          profile: Nexus 6
+          profile: Pixel 3a
           script: flutter test test/app_test
