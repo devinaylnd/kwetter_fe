@@ -22,5 +22,5 @@ jobs:
         with:
           api-level: ${{ matrix.api-level }}
           arch: x86_64
-          profile: Nexus 7
+          profile: Nexus S
           script: flutter test test/app_test
