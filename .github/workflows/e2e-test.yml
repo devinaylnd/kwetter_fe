@@ -3,7 +3,7 @@ name: end-to-end test
 on: [push, workflow_dispatch]
 jobs:
   android:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         api-level:
