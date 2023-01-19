@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394596336226",
+    "project_id": "kwetter-f8b5a",
+    "storage_bucket": "kwetter-f8b5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394596336226:android:f1c677ff0c80296292473b",
+        "android_client_info": {
+          "package_name": "com.devyl.kwetter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394596336226-hnq0pq3upadurh5i4t8qlngdle756sup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9BrEgGN0LAfACvx76z_EaJEWALSnCBlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394596336226-hnq0pq3upadurh5i4t8qlngdle756sup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
